@@ -1,0 +1,34 @@
+# Introduction to Graphs
+
+Graphs are a fundamental data structure used in computer science to represent relationships between objects. A graph consists of a set of nodes (also called vertices) and a set of edges that connect pairs of nodes.
+
+## Key Concepts
+
+1. **Nodes (Vertices)**: The individual elements or points in a graph.
+2. **Edges**: The connections between the nodes. Edges can be directed (one-way) or undirected (two-way).
+
+## Types of Graphs
+
+1. **Undirected Graph**: A graph where edges have no direction. The connection between two nodes is bidirectional.
+2. **Directed Graph (Digraph)**: A graph where edges have a direction, indicating a one-way relationship.
+3. **Weighted Graph**: A graph where edges have weights or costs associated with them.
+4. **Unweighted Graph**: A graph where edges do not have any weights.
+
+## Graph Representation
+
+Graphs can be represented in several ways:
+
+1. **Adjacency Matrix**: A 2D array where the cell at row `i` and column `j` indicates the presence (and possibly the weight) of an edge between nodes `i` and `j`.
+2. **Adjacency List**: An array of lists. The index represents a node, and the list at that index contains the nodes that are connected to it.
+3. **Edge List**: A list of all edges in the graph, where each edge is represented as a pair (or tuple) of nodes.
+
+## Applications of Graphs
+
+Graphs are used in various applications, including:
+
+- Social networks (e.g., Facebook, LinkedIn)
+- Navigation systems (e.g., Google Maps)
+- Network routing (e.g., the internet)
+- Recommendation systems (e.g., Amazon, Netflix)
+
+Understanding graphs and their properties is essential for solving many real-world problems efficiently.
