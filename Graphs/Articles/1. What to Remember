@@ -1,0 +1,42 @@
+You don’t need to memorize the exact code, but you do need to understand how to write it from scratch.
+
+🔹 What You Need to Remember About Code for Interviews
+Instead of memorizing the full code, focus on these aspects:
+
+1️⃣ The Core Logic & Steps
+    Example: For BFS, remember:
+        Use a queue
+        Mark nodes as visited
+        Process neighbors iteratively
+    You don’t need to memorize syntax, but you should recall how BFS works and be able to implement it.
+
+2️⃣ The Key Data Structures
+    BFS → Queue
+    DFS → Stack (or Recursion)
+    Dijkstra → Min-Heap (Priority Queue)
+    Kruskal → Union-Find (Disjoint Set)
+
+3️⃣ Edge Cases & Constraints
+    What happens if the graph is disconnected?
+    Can the graph have negative weights?
+    Do you need to track visited nodes?
+
+4️⃣ Write Code from Scratch (Practice)
+    Instead of memorizing full code, practice writing from a blank file.
+    Example: Given "Implement BFS", you should be able to write the function from memory, even if syntax is slightly off at first.
+    
+🔹 How to Approach Interview Coding Questions
+✅ Recognize the pattern (e.g., "This is a shortest path problem, I need Dijkstra")
+✅ Write the high-level steps first (before jumping into code)
+✅ Use pseudocode to structure your approach
+✅ Write and test the implementation
+✅ Debug efficiently (identify mistakes logically, not by guessing)
+
+🔹 What About Syntax?
+If you're comfortable with JavaScript, syntax will come naturally with practice. If you struggle, focus on coding every day so writing loops, functions, and data structures becomes second nature.
+
+👉 Bottom line:
+❌ Don’t memorize entire code
+✅ Do understand patterns and be able to implement them from scratch
+
+Would you like a structured plan for practicing this? 🚀

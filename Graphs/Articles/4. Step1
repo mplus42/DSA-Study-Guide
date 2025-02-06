@@ -1,0 +1,33 @@
+🔥 Step 1: Implement BFS & DFS from Scratch
+    We'll start with:
+    ✅ Graph Representation (Adjacency List)
+    ✅ Breadth-First Search (BFS)
+    ✅ Depth-First Search (DFS)
+
+    📌 Task 1: Implement Graph Using Adjacency List
+        Before we dive into traversal, let’s first build a graph class that supports adding edges.
+
+        💡 Key Concept:
+
+        Use an object (dictionary) to store adjacency lists.
+        If undirected, add edges both ways.
+
+    📌 Task 2: Implement BFS
+        🔥 Core Steps:
+        1️⃣ Use a queue (FIFO) for BFS traversal
+        2️⃣ Mark nodes as visited when adding them to the queue
+        3️⃣ Process all neighbors before moving deeper
+
+    📌 Task 3: Implement DFS
+        🔥 Core Steps:
+        1️⃣ Use a stack (or recursion) for DFS traversal
+        2️⃣ Mark nodes as visited when first visiting them
+        3️⃣ Go as deep as possible, then backtrack
+
+🚀 Your Challenge:
+👉 Implement BFS & DFS from scratch in JavaScript!
+
+Let’s start step by step:
+1️⃣ I’ll guide you to write the Graph class first.
+2️⃣ Then, we’ll implement BFS.
+3️⃣ Finally, we’ll do DFS.

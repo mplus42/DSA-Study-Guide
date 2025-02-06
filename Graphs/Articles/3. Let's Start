@@ -1,0 +1,43 @@
+🚀 Step 1: Start with Basic Graph Traversal
+    👉 Breadth-First Search (BFS) and Depth-First Search (DFS) are the building blocks of all graph problems.
+    📌 Why?
+
+    They help in connectivity checks, cycle detection, shortest paths, and many other algorithms build upon them.
+    Mastering these will make advanced topics easier to implement.
+    🎯 What to do?
+
+    Implement BFS & DFS on an adjacency list graph.
+    Write them both iteratively and recursively.
+    Try variations:
+    Graph with disconnected components
+    Directed vs. Undirected graphs
+    Detecting cycles
+
+🚀 Step 2: Move to Shortest Path Algorithms
+    📌 Next, learn Dijkstra’s & Bellman-Ford since shortest paths appear frequently in interviews.
+    🎯 What to do?
+
+    Implement Dijkstra’s Algorithm using a priority queue (min-heap).
+    Implement Bellman-Ford Algorithm and understand how it handles negative weights.
+
+🚀 Step 3: Minimum Spanning Tree (MST)
+    📌 Why? Used for network designs, connectivity problems, etc.
+    🎯 What to do?
+
+    Implement Kruskal’s Algorithm (uses Union-Find).
+    Implement Prim’s Algorithm (uses a priority queue).
+
+🚀 Step 4: Advanced Graph Concepts
+    ✅ Cycle Detection (Undirected: Union-Find, DFS, Directed: Recursion Stack)
+    ✅ Topological Sorting (Kahn’s Algorithm - BFS, DFS Approach)
+    ✅ Strongly Connected Components (SCC) (Kosaraju’s & Tarjan’s Algorithms)
+    ✅ Grid-Based Graph Problems (Flood Fill, Rotten Oranges)
+
+🔥 Learning Strategy
+    🔹 Write from scratch (no copy-pasting).
+    🔹 Solve at least 2-3 problems per concept.
+    🔹 Understand variations and edge cases.
+
+🚀 Step 5: Mock Interviews & Problem-Solving
+    Once you're comfortable, start solving Google-style graph problems on LeetCode and conduct mock interviews to strengthen your problem-solving speed.
+

@@ -1,0 +1,112 @@
+🔥 Graph Core Logic & Steps (No Code, Just Key Ideas!)
+
+📌 Graph Traversal
+    1️⃣ Breadth-First Search (BFS)
+        ✅ Use a queue (FIFO)
+        ✅ Mark nodes as visited when pushing them into the queue
+        ✅ Process neighbors iteratively (one level at a time)
+        ✅ Best for shortest paths in unweighted graphs
+
+    2️⃣ Depth-First Search (DFS)
+        ✅ Use a stack (or recursion)
+        ✅ Mark nodes as visited when visiting them
+        ✅ Explore as deep as possible before backtracking
+        ✅ Best for connectivity & cycle detection
+
+📌 Shortest Path Algorithms
+    3️⃣ Dijkstra’s Algorithm (Single Source, No Negative Weights)
+        ✅ Use a min-heap (priority queue)
+        ✅ Always expand the closest (smallest distance) node first
+        ✅ Relax edges: If a shorter path is found, update the distance
+        ✅ Best for finding the shortest path in weighted graphs
+
+    4️⃣ Bellman-Ford Algorithm (Handles Negative Weights)
+        ✅ Initialize distances, set source to 0, all others to ∞
+        ✅ Relax all edges (V-1 times) (Keep updating shortest paths)
+        ✅ Check for negative weight cycles in a final pass
+        ✅ Best for graphs with negative weights
+
+    5️⃣ Floyd-Warshall Algorithm (All-Pairs Shortest Path)
+        ✅ Use a matrix to store distances
+        ✅ Iterate through all pairs using an intermediate node
+        ✅ Update dist[u][v] = min(dist[u][v], dist[u][k] + dist[k][v])
+        ✅ Best for dense graphs (where every node connects to many others)
+
+📌 Minimum Spanning Tree (MST)
+    6️⃣ Kruskal’s Algorithm
+        ✅ Sort all edges by weight
+        ✅ Use Union-Find to prevent cycles
+        ✅ Pick the smallest edge that doesn’t form a cycle
+        ✅ Best for finding the minimum cost to connect all nodes
+
+    7️⃣ Prim’s Algorithm
+        ✅ Start from any node, add the smallest edge to the tree
+        ✅ Use a priority queue to track the smallest available edges
+        ✅ Expand the tree until all nodes are included
+        ✅ Best for greedy MST construction
+
+📌 Cycle Detection
+    8️⃣ Cycle Detection in Undirected Graphs
+        ✅ Use DFS or Union-Find
+        ✅ DFS approach: If a node is visited and is not the parent, a cycle exists
+        ✅ Union-Find approach: If two connected nodes have the same root, a cycle exists
+
+    9️⃣ Cycle Detection in Directed Graphs
+        ✅ Use DFS with a recursion stack
+        ✅ If a node is visited and is already in the recursion stack → Cycle exists
+
+📌 Topological Sorting (Only for Directed Acyclic Graphs)
+    🔟 Kahn’s Algorithm (BFS Approach)
+        ✅ Compute in-degrees (how many incoming edges per node)
+        ✅ Add all nodes with in-degree = 0 to a queue
+        ✅ Remove edges and push new in-degree 0 nodes into the queue
+        ✅ If processed nodes < total nodes → Cycle exists
+
+    1️⃣1️⃣ DFS Approach
+        ✅ Perform DFS, storing nodes in a stack after finishing recursion
+        ✅ Reverse the stack to get topological order
+
+📌 Strongly Connected Components (SCCs)
+    1️⃣2️⃣ Kosaraju’s Algorithm
+        ✅ Step 1: Do a DFS and push nodes onto a stack
+        ✅ Step 2: Reverse the graph
+        ✅ Step 3: Pop nodes from the stack, do DFS again to find SCCs
+
+    1️⃣3️⃣ Tarjan’s Algorithm
+        ✅ Maintain low-link values
+        ✅ If a node is its own lowest ancestor, it’s a SCC root
+        ✅ Track nodes using a stack
+
+📌 Graph Coloring Problems
+    1️⃣4️⃣ Is Graph Bipartite?
+        ✅ Try 2-coloring using BFS or DFS
+        ✅ If a node has the same color as its neighbor → Not Bipartite
+
+    1️⃣5️⃣ M Coloring Problem
+        ✅ Try assigning colors using backtracking
+        ✅ If a valid color is not possible, backtrack
+
+📌 Disjoint Set (Union-Find)
+    1️⃣6️⃣ Union-Find (With Path Compression & Rank)
+        ✅ Find: Traverse up to the root (with path compression)
+        ✅ Union: Attach smaller tree under larger tree (by rank)
+        ✅ Great for connected components & cycle detection
+
+📌 Grid-Based Graph Problems
+    1️⃣7️⃣ Flood Fill (DFS/BFS)
+        ✅ If a cell is the same color, change it and process all 4 neighbors
+
+    1️⃣8️⃣ Rotten Oranges (Multi-Source BFS)
+        ✅ Push all initially rotten oranges into a queue
+        ✅ Process level by level using BFS
+
+📌 Advanced Topics
+    1️⃣9️⃣ Bridges & Articulation Points (Tarjan’s Algorithm)
+        ✅ Use low-link values to identify critical edges
+
+    2️⃣0️⃣ Eulerian Path & Circuit
+        ✅ Eulerian Circuit → All vertices have even degrees
+        ✅ Eulerian Path → Exactly 0 or 2 vertices have odd degrees
+
+🎯 Final Tip:
+🚀 Instead of memorizing code, focus on understanding these core logic & steps and practice writing from scratch.

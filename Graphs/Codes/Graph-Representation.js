@@ -1,32 +1,47 @@
-// A simple representation of graph using JavaScript
+class Graph {
+    constructor() {
+        this.adjacencyList = {};
+        this.undirected = true; // Option to make the graph directed or undirected
+    }
 
-// A utility function to add an edge in an undirected graph.
-function addEdge(adj, u, v) {
-    adj[u].push(v);
-    adj[v].push(u);
-}
-
-// A utility function to print the adjacency list representation of graph
-function printGraph(adj, V) {
-    for (let v = 0; v < V; ++v) {
-        let output = `\n Adjacency list of vertex ${v}\n head `;
-        for (let x of adj[v]) {
-            output += `-> ${x}`;
+    addVertex(vertex) {
+        // If vertex does not already exist, create it
+        if (!this.adjacencyList[vertex]) {
+            this.adjacencyList[vertex] = [];
         }
-        console.log(output);
+    }
+
+    addEdge(vertex1, vertex2) {
+        // Ensure both vertices exist in the graph
+        if (!this.adjacencyList[vertex1]) {
+            this.addVertex(vertex1); // If vertex1 doesn't exist, add it
+        }
+        if (!this.adjacencyList[vertex2]) {
+            this.addVertex(vertex2); // If vertex2 doesn't exist, add it
+        }
+
+        // Add the edge from vertex1 to vertex2
+        this.adjacencyList[vertex1].push(vertex2);
+
+        // If undirected, also add the edge from vertex2 to vertex1
+        if (this.undirected) {
+            this.adjacencyList[vertex2].push(vertex1);
+        }
+    }
+
+    printGraph() {
+        // Loop through the adjacency list and print each vertex with its neighbors
+        for (let vertex in this.adjacencyList) {
+            console.log(`${vertex} --> ${this.adjacencyList[vertex].join(", ")}`);
+        }
     }
 }
 
-// Driver code
-const V = 5;
-const adj = Array.from({ length: V }, () => []);
-addEdge(adj, 0, 1);
-addEdge(adj, 0, 4);
-addEdge(adj, 1, 2);
-addEdge(adj, 1, 3);
-addEdge(adj, 1, 4);
-addEdge(adj, 2, 3);
-addEdge(adj, 3, 4);
-printGraph(adj, V);
-
-    
+let graph = new Graph();
+graph.addVertex(1);
+graph.addVertex(2);
+graph.addVertex(3);
+graph.addEdge(1, 2);
+graph.addEdge(3, 2);
+graph.addEdge(1, 3);
+graph.printGraph();

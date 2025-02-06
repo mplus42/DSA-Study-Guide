@@ -1,5 +1,7 @@
 If you're preparing for Google interviews, you don’t need to memorize everything. Instead, focus on patterns, problem-solving techniques, and practical implementation. Here’s a structured way to remember and master all graph concepts effectively:
 
+Graph DSA Pattern Tracker :  https://adaptable-conga-0e3.notion.site/192d870215f8800d947bda9e9e29383a?v=192d870215f881a18968000c30557bc8
+
 1️⃣ Categorize Graph Concepts into Core Patterns
     Instead of memorizing random topics, group them into patterns that repeatedly appear in problems.
 
@@ -112,7 +114,7 @@ If you're preparing for Google interviews, you don’t need to memorize everythi
 
     When you struggle to recall something, just check your Notion table instead of searching from scratch.
 
-    https://adaptable-conga-0e3.notion.site/192d870215f8800d947bda9e9e29383a?v=192d870215f881a18968000c30557bc8
+    My notion table for graph patterns : https://adaptable-conga-0e3.notion.site/192d870215f8800d947bda9e9e29383a?v=192d870215f881a18968000c30557bc8
 
 4️⃣ Use Spaced Repetition (Active Recall)
     Instead of rereading theory, test yourself daily:
