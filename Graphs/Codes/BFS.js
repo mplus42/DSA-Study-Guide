@@ -1,3 +1,8 @@
+/*
+Use a queue
+Mark nodes as visited
+Process neighbors iteratively
+*/
 class Graph {
     constructor(vertices) {
         this.vertices = vertices;
