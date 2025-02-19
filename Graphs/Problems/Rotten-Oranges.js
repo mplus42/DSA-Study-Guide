@@ -17,7 +17,7 @@ var orangesRotting = function(grid) {
         }
     }
 
-    // Step 2: Apply BFS to rot fresh oranges
+    // Step 2: Apply BFS to rot fresh oranges 
     while (queue.length > 0 && freshCount > 0) {
         let size = queue.length;
         for (let i = 0; i < size; i++) {
