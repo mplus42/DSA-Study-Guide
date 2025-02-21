@@ -1,0 +1,43 @@
+Tell me about a time you had to make a fast decision with incomplete data.
+Give an example of when you took a calculated risk.
+
+Interviewer: Tell me about a time that you had to make a decision at work but you didn’t have all the data available that you'd like.
+
+Candidate: Yeah, a few months back, my team encountered an issue where customers were receiving incorrect coaching session emails—some got reminders for sessions they weren’t enrolled in, while others received wrong dates and times. I first became aware of the issue when our support team flagged a sudden increase in customer complaints within an hour of the emails being sent.
+
+Since these emails were time-sensitive and directly impacted customer experience, I knew we couldn’t wait for a full root cause analysis before taking action.
+
+Interviewer: So how did you move forward from that? It seems like you didn’t have all the data that you’d like, so what happened next? What did you do?
+
+Candidate: Well, I knew that I couldn’t solve this alone because our email system was complex and integrated with multiple services. So, I set up a conference call with engineers from the email team, database team, and customer support to divide and conquer.
+
+While one group analyzed the email logs, another checked the customer database mappings, and I worked directly with support to identify patterns in customer complaints.
+
+Interviewer: I see. So, after the investigation, what was the next step? What did you do?
+
+Candidate: After about three hours of investigation, we still didn’t have full visibility into how many customers were impacted, but we identified a misconfigured session mapping in the email template as the likely cause.
+
+Even though we weren’t sure of the full impact yet, I decided it was too risky to let further incorrect emails go out. So, I paused all upcoming reminder emails to prevent more customers from receiving incorrect information and worked on a fix with the engineering team.
+
+Interviewer: How did you know that this was so important that you wanted to pause the emails and not just wait for the full analysis?
+
+Candidate: Well, given that these emails were time-sensitive, customers were already confused, and support tickets were increasing, it was clear that allowing more incorrect emails to go out would only make things worse. We had also received multiple customer complaints, which is usually a signal that many more people are affected but haven’t reached out yet.
+
+So, rather than waiting for a complete data set, I decided to pause the emails, implement a temporary fix, and later roll out a full resolution after deeper investigation.
+
+Interviewer: I see. And then what was the follow-up on this?
+
+Candidate: Over the next two days, we conducted a detailed root cause analysis to determine:
+
+How many customers were impacted
+What data was incorrectly mapped in the email system
+Why our automated validation checks didn’t catch this earlier
+After identifying the root cause, I led the effort to implement a new validation process that checks email content before sending, preventing similar issues in the future.
+
+Interviewer: Great. Have you seen this issue happen again since?
+
+Candidate: No, because after implementing the pre-send validation process, we haven’t had any incorrect emails go out. But beyond just fixing the issue, we also expanded our email monitoring system to catch anomalies earlier and alert the team before customers report problems.
+
+Interviewer: Great, so it looks like you might have prevented additional issues from happening in the future.
+
+Candidate: Exactly. While we can’t always prevent 100% of errors, these improvements have reduced email-related incidents significantly, improved customer trust, and helped the support team handle fewer complaints.

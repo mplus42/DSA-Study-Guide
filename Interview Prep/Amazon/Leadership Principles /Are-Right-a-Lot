@@ -1,0 +1,16 @@
+Questions:
+Describe a time you made a critical decision with limited data,but you turned out to be right.
+Tell me about a time when you disagreed with a teammate and how you handled it.
+
+Answer:
+
+Situation:
+During a major product launch, we noticed a sudden spike in API response times, but there were no clear error logs or alerts. The team was unsure whether it was a temporary issue or something critical.
+
+Behavior:
+I analyzed the logs and found a pattern suggesting a database connection bottleneck. Even though we didn’t have complete data, I recommended scaling up the database instance immediately rather than waiting for full diagnostics. While others hesitated, I backed my decision with past incident patterns and convinced the team to proceed.
+
+Impact:
+Within 10 minutes, API response times normalized, preventing potential downtime for thousands of users. A later deep dive confirmed that a slow query was causing the issue, and my quick decision saved the company from a major service disruption during launch.
+
+

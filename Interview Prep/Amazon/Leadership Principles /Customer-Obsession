@@ -1,0 +1,26 @@
+Question : Tell me about a time you went above and beyond for a customer.
+Describe a situation where you had to prioritize customer needs over business needs.
+
+
+Example: Prioritizing Customer Needs Over Business Needs
+Situation:
+I was working on an e-pharmacy website, where we launched an automated prescription verification system to reduce operational costs and speed up order processing. The goal was to minimize manual intervention by allowing the system to automatically approve prescriptions based on predefined criteria.
+
+However, after launching the system, we noticed that many legitimate prescriptions were being incorrectly rejected due to strict validation rules. Customers who needed urgent medications were facing delays, leading to frustration and increased complaints.
+
+
+Task:
+The business objective was to save costs by reducing the workload of pharmacists, but this came at the expense of customer satisfaction and timely medicine delivery. I had to decide whether to continue with full automation or adjust the process to ensure critical prescriptions were not delayed.
+
+Action:
+I analyzed the rejection patterns and found that some valid prescriptions were failing due to minor formatting differences (e.g., missing doctor’s license number or slight variations in drug names).
+I recommended temporarily reintroducing manual review for prescriptions that didn’t pass the automated check, ensuring that customers received their medications on time.
+I worked with the development team to refine the automation rules, making them more flexible without compromising safety or compliance.
+
+Result:
+Prescription approval time improved by 40%, reducing unnecessary delays.
+Customer complaints decreased significantly, improving trust and satisfaction.
+Once the automated system was optimized, we successfully reintroduced it with better accuracy, maintaining both efficiency and customer care.
+Key Takeaway:
+While the business aimed to cut costs through automation, I prioritized customer well-being, ensuring that patients received their essential medications without delays. This balance between efficiency and customer needs led to a more effective long-term solution.
+

@@ -1,0 +1,30 @@
+Tell me about a time you used data to solve a problem.
+Describe a scenario where you had to analyze a complex issue in depth.
+
+Candidate: A few months ago, I was working on an e-pharmacy website where we launched an automated prescription verification system to reduce operational costs and speed up order processing. The goal was to minimize manual intervention by allowing the system to automatically approve prescriptions based on predefined criteria.
+
+However, shortly after launch, we noticed a sharp increase in rejected prescriptions. Customer complaints surged, as many legitimate prescriptions were being incorrectly rejected, leading to delays in delivering critical medications. This was a serious issue, as it directly impacted patient health.
+
+Interviewer: How did you approach the problem?
+Candidate: Since this was a complex issue affecting both business efficiency and customer trust, I decided to deep dive into the rejection patterns by analyzing multiple data sources:
+
+Prescription rejection logs – to identify common reasons for failure.
+Customer complaint tickets – to find patterns in the rejected prescriptions.
+Manual pharmacist approvals – to compare system-rejected prescriptions with those that pharmacists approved manually.
+From the data, I discovered that many prescriptions were failing due to minor formatting differences—such as slight variations in drug names, missing doctor’s license numbers, or non-standard abbreviations. These were valid prescriptions that the automated system was rejecting too strictly.
+
+Interviewer: What action did you take?
+Candidate: Once I identified the issue, I took the following actions:
+
+Implemented a temporary manual review process for prescriptions that failed the automated check, ensuring that urgent orders were not unnecessarily delayed.
+Refined the automation rules by working with the development team to make the system more flexible, allowing slight variations while maintaining compliance.
+Introduced machine learning-based pattern recognition to help the system learn from past pharmacist-approved prescriptions, improving accuracy over time.
+Interviewer: What was the outcome?
+Candidate: Within a month, we saw major improvements:
+
+Prescription approval time improved by 40%, reducing unnecessary delays.
+Customer complaints dropped significantly, increasing trust in the system.
+After refining the automation, we successfully reintroduced the system with a 95% accuracy rate, balancing efficiency with customer care.
+Interviewer: Have you seen similar issues since?
+Candidate: No, because we also implemented a feedback loop where pharmacists could flag incorrect rejections, allowing us to continuously improve the system. This has helped maintain both operational efficiency and a high level of customer satisfaction.
+

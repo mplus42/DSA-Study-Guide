@@ -1,0 +1,13 @@
+Question: Tell me about a time when you simplified a complex process.
+Describe a situation where you introduced an innovative solution.
+
+SBI Answer:
+Situation:
+At my previous job, our deployment process was entirely manual, taking 2-3 hours per release and often leading to errors. This slowed down development and caused frequent rollbacks due to misconfigurations.
+
+Behavior:
+I proposed and implemented a CI/CD pipeline using Jenkins and Docker, automating the entire deployment process. I also wrote scripts to validate configurations before deployment, reducing human errors.
+
+Impact:
+This automation reduced deployment time from 3 hours to 15 minutes, minimized rollback incidents by 80%, and allowed us to deploy 5x more frequently. The team adopted it across multiple projects, improving overall efficiency.
+

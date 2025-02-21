@@ -1,0 +1,27 @@
+Describe a time you mentored someone at work.
+Tell me about a time you helped a teammate grow professionally.
+
+
+Candidate: At my previous job, I worked with a junior developer who had recently joined our team. While he had a strong theoretical background, he struggled with writing scalable code, debugging production issues, and understanding system design patterns. Since I had experience in those areas, I decided to mentor him through structured learning and hands-on practice.
+
+Interviewer: How did you approach the mentorship?
+Candidate: I focused on a mix of hands-on learning, structured guidance, and peer collaboration to accelerate his growth.
+
+Pair Programming Sessions – We scheduled regular pair programming sessions, where we worked on real-world tasks together. I guided him through writing efficient, modular code while helping him understand why certain design choices matter. This not only improved his coding style but also boosted his confidence in solving problems collaboratively.
+
+Code Reviews & Best Practices – During code reviews, I didn’t just point out issues but walked him through scalability concerns, performance optimizations, and clean coding principles. Over time, he started catching these issues himself.
+
+Debugging and Problem-Solving Training – He often struggled with tracing production issues, so I introduced him to log analysis tools and debugging techniques. We worked together on live debugging sessions, where I taught him how to efficiently identify root causes and apply fixes.
+
+Project Ownership – To give him more confidence, I encouraged him to take full ownership of a small feature. Through pair programming and design discussions, I helped him understand the end-to-end development cycle, from writing code to testing and deployment.
+
+Interviewer: What was the outcome?
+Candidate: Over three months, his technical skills and confidence improved significantly:
+
+He reduced his debugging time by 50%, solving production issues more independently.
+His code quality improved, leading to fewer revisions in reviews.
+He successfully delivered his first feature end-to-end, applying what he learned from pair programming and mentorship.
+Later, he felt confident enough to mentor another new hire, passing on the knowledge he gained.
+Interviewer: Have you continued mentoring others?
+Candidate: Yes, after seeing the impact of mentorship, I started documenting best practices and conducting technical workshops on debugging and clean code for the entire team. Additionally, I encouraged a peer mentorship system, where team members regularly pair program to share knowledge and reinforce learning.
+
