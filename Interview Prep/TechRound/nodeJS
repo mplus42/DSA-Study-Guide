@@ -1,0 +1,209 @@
+### Node.js Interview Questions & Perfectly Structured Answers for Cognizant 🚀
+
+Let’s make these answers easy to understand and even easier to recall! I’ll break them down with simple explanations, analogies, and practical examples.
+
+---
+
+## 1. **What is Node.js?**
+Think of Node.js as a kitchen where a chef (server) can cook many dishes (requests) at once without waiting for one dish to finish. It’s a JavaScript runtime built on Chrome's V8 engine, which executes JavaScript code outside the browser.
+
+**Key points to remember:**
+- Server-side JavaScript
+- Built on V8 engine (fast!)
+- Non-blocking, event-driven
+
+---
+
+## 2. **How does Node.js work?**
+Imagine a waiter taking multiple orders without waiting for one order to be served. Node.js uses a single thread to handle multiple requests via an event loop, so it doesn’t get stuck waiting for a response.
+
+**Key points:**
+- Single-threaded, but handles many requests
+- Uses an event loop to process tasks asynchronously
+
+---
+
+## 3. **What are the advantages of Node.js?**
+Think of Node.js like a food truck: quick, efficient, and perfect for small, fast dishes.
+
+- **Speed:** Powered by Google’s V8 engine
+- **Non-blocking I/O:** Handles multiple requests simultaneously
+- **JavaScript everywhere:** Use the same language for frontend and backend
+- **Huge ecosystem:** Access to thousands of packages with npm
+
+---
+
+## 4. **What is the event loop?**
+Picture a secretary checking a to-do list: they complete tasks as they’re ready, not in a fixed order. Node.js uses the event loop to handle asynchronous operations, constantly checking for completed tasks and executing their callbacks.
+
+**Key points:**
+- Heart of Node.js
+- Manages async tasks
+- Ensures non-blocking execution
+
+---
+
+## 5. **Difference between synchronous and asynchronous programming?**
+- **Synchronous:** Like waiting in line at a bank — one customer at a time.
+- **Asynchronous:** Like ordering coffee at a café — you place the order, sit down, and get called when it's ready.
+
+**Example:**
+```javascript
+// Synchronous (blocking)
+const data = fs.readFileSync('file.txt');
+console.log(data);
+
+// Asynchronous (non-blocking)
+fs.readFile('file.txt', (err, data) => {
+  console.log(data);
+});
+```
+
+---
+
+## 6. **What are callbacks?**
+Imagine you tell your friend to call you after they get home — that’s a callback! In Node.js, a callback is a function passed to another function, executed once the task is done.
+
+**Example:**
+```javascript
+function greet(name, callback) {
+  console.log("Hello, " + name);
+  callback();
+}
+
+greet("Alice", function() {
+  console.log("Welcome to Node.js!");
+});
+```
+
+---
+
+## 7. **What are streams?**
+Streams are like water pipes — data flows through them in chunks instead of loading all at once.
+
+- **Readable streams:** Reading data (like from a file)
+- **Writable streams:** Writing data (like to a file)
+- **Duplex streams:** Both readable & writable
+- **Transform streams:** Modify data as it passes through
+
+**Example:**
+```javascript
+const fs = require('fs');
+const stream = fs.createReadStream('file.txt');
+stream.on('data', chunk => {
+  console.log(chunk);
+});
+```
+
+---
+
+## 8. **process.nextTick() vs setImmediate()?**
+- **process.nextTick():** Executes immediately after the current operation finishes.
+- **setImmediate():** Executes in the next cycle of the event loop.
+
+**Example:**
+```javascript
+process.nextTick(() => console.log("nextTick"));
+setImmediate(() => console.log("setImmediate"));
+```
+
+**Output:**
+```
+nextTick
+setImmediate
+```
+
+---
+
+## 9. **What is npm?**
+npm (Node Package Manager) is like an app store for Node.js packages. It helps you install, manage, and share libraries and tools.
+
+**Commands:**
+- `npm init` → Create a package.json file
+- `npm install package-name` → Install a package
+
+---
+
+## 10. **What is package.json?**
+Think of `package.json` as your project’s resume — it describes your project and lists all its dependencies.
+
+**Example:**
+```json
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
+```
+
+---
+
+## 11. **What are middleware functions in Express.js?**
+Middleware functions are like security guards or traffic controllers. They process requests before passing them to route handlers.
+
+**Example:**
+```javascript
+const express = require('express');
+const app = express();
+
+app.use((req, res, next) => {
+  console.log('Request received');
+  next();
+});
+```
+
+---
+
+## 12. **How does Node.js handle errors?**
+Imagine you catch a falling glass before it shatters — that’s how error handling works.
+
+- **Sync errors:** Use `try...catch`
+- **Async errors:** Use error-first callbacks or promises
+
+**Example:**
+```javascript
+fs.readFile('file.txt', (err, data) => {
+  if (err) {
+    console.error("Error reading file:", err);
+  } else {
+    console.log(data);
+  }
+});
+```
+
+---
+
+## 13. **What is the V8 engine?**
+V8 is like a turbo engine for JavaScript — it compiles JS code into machine code, making it super fast.
+
+- Built by Google (used in Chrome)
+- Powers Node.js performance
+
+---
+
+## 14. **What are closures?**
+Closures are like backpacks — a function carries the variables of its outer function, even after the outer function finishes.
+
+**Example:**
+```javascript
+function outer() {
+  const message = "Hello";
+  return function inner() {
+    console.log(message);
+  };
+}
+const greet = outer();
+greet();
+```
+
+**Output:**
+```
+Hello
+```
+
+---
+
+Would you like me to keep adding more questions or refine these answers even more? Let me know — I want you to ace your interview! 🚀
+
